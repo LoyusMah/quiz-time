@@ -54,7 +54,7 @@ function showQuestion() {
   let questionNo = currentQuestionIndex + 1;
   questionElements.innerHTML = questionNo + ". " + currentQuestion.question;
 
-  currentQuestion.answers.foreach((answer) => {
+  currentQuestion.answers.map((answer) => {
     const button = document.createElement("button");
     button.innerHTML = answer.text;
     button.classList.add("btn");
@@ -71,13 +71,42 @@ function resetState() {
     answerButtons.removeChild(answerButtons.firstChild);
   }
 }
-function selectAnswer() {
+function selectAnswer(e) {
   const selectedbtn = e.target;
   const iscorrect = selectedbtn.dataset.correct === "true";
   if (iscorrect) {
     selectedbtn.classList.add("correct");
+    score++;
   } else {
     selectedbtn.classList.add("incorrect");
   }
+  Array.from(answerButtons.children).map((button) => {
+    if (button.dataset.correct === "true") {
+      button.classList.add("correct");
+    }
+    button.disabled = true;
+  });
+  nextButton.style.display = "block";
 }
+function showScore() {
+  resetState();
+  questionElements.innerHTML = `You Scored ${score} out of ${questions.length} now dance 🥳🥳🥳🥳🥳🥳🥳🥳🥳`;
+  nextButton.innerHTML = "Play again";
+  nextButton.style.display = "block";
+}
+function handleNextButton() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < questions.length) {
+    showQuestion();
+  } else {
+    showScore();
+  }
+}
+nextButton.addEventListener("click", () => {
+  if (currentQuestionIndex < questions.length) {
+    handleNextButton();
+  } else {
+    startQuiz();
+  }
+});
 startQuiz();
