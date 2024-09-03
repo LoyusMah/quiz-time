@@ -8,7 +8,13 @@
   </head>
   <body>
     <div class="app">
-      <h1>Simple Quize</h1>
+      <div class="timer">
+        <span id="timer">100</span>
+      </div>
+      <h1>
+        You have 100 seconds to complete 10 questions, each worth 1 mark. To
+        pass, you need at least 50%. Good luck
+      </h1>
       <div class="quiz">
         <h2 id="question">Question goes here</h2>
         <div id="answer-buttons">
@@ -19,6 +25,18 @@
         </div>
         <button id="next-btn">Next</button>
       </div>
+      <audio id="timerAudio">
+        <source src="assets/click.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="cheerAudio">
+        <source src="assets/cheer.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="booAudio">
+        <source src="assets/boo.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
     </div>
     <script src="script.js"></script>
   </body>

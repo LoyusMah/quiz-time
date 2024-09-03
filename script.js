@@ -1,3 +1,14 @@
+const QUIZ_TIME = 90;
+const QUIZ_QUESTION_POINTS = 1;
+const PASS_PERCENT = 50;
+
+let setIntervalID;
+let quiz = [];
+let timer = 0;
+let timerAudio = document.getElementById("timerAudio");
+let cheerAudio = document.getElementById("cheerAudio");
+let booAudio = document.getElementById("booAudio");
+
 const questions = [
   {
     question: "What is the fav food of nepali",

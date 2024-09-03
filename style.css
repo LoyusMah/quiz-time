@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background: black;
+  background: wheat;
   color: white;
 }
 .app {
-  background: rgb(91, 187, 91);
+  background: rgb(189, 191, 189);
   width: 90%;
   max-width: 600px;
   margin: 100px auto 0;
@@ -17,7 +17,7 @@ body {
 }
 .app h1 {
   font-size: 25px;
-  color: red;
+  color: rgb(113, 99, 99);
   font-weight: 600;
   border-bottom: 1px solid #333;
   padding: 30px;
@@ -27,7 +27,7 @@ quiz {
 }
 .quiz h2 {
   font-size: 18px;
-  color: pink;
+  color: rgb(116, 78, 85);
   font-weight: 600px;
 }
 .btn {
@@ -44,7 +44,7 @@ quiz {
   transition: 0.3s;
 }
 .btn:hover:not(:disabled) {
-  background: red;
+  background: rgb(143, 117, 117);
   color: white;
 }
 .bth:disabled {
@@ -67,4 +67,19 @@ quiz {
 }
 .incorrect {
   background: #ff9393;
+}
+.timer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: monospace;
+  background-color: rgb(109, 77, 77);
+
+  border-radius: 20px;
 }
