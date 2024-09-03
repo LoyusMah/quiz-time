@@ -1,0 +1,140 @@
+{
+    "quiz": [
+    {
+           "question": "What sport is considered the most popular in the world?",
+           "options": ["Football", "Tennis", "Golf", "Basketball"],
+           "answer": "Fooballt"
+       },
+       {
+           "question": "Which team won the last World Hockey Championship?",
+           "options": ["Russia", "Canada", "United states", "Finland"],
+           "answer": "Canada"
+       },
+       {
+           "question": "What year is officially recognized as the beginning of the modern Olympic Games?",
+           "options": [
+               "1880",
+               "1600",
+               "1906",
+               "1896"
+           ],
+           "answer": "1896"
+       },
+       {
+           "question": "What material is used for weights in most bicycle races?",
+           "options": [
+               "Lead",
+               "Glass",
+               "Aluminum",
+               "Concrete"
+           ],
+           "answer": "Lead"
+       },
+       {
+           "question": " What distance do marathon participants run?",
+           "options": ["10K.M", "21K.M", "100K.M", "42.5K.M"],
+           "answer": "42.5K.M"
+       },
+       {
+           "question": "In which year did the Titanic sink?",
+           "options": ["1905", "1912", "1920", "1935"],
+           "answer": "1912"
+       },
+       {
+           "question": "Which country is known as the Land of the Rising Sun?",
+           "options": ["China", "Japan", "South Korea", "India"],
+           "answer": "Japan"
+       },
+       {
+           "question": "What is the smallest unit of life?",
+           "options": ["Atom", "Molecule", "Cell", "Organism"],
+           "answer": "Cell"
+       },
+       {
+           "question": "Who was the first person to walk on the moon?",
+           "options": [
+               "Neil Armstrong",
+               "Buzz Aldrin",
+               "Yuri Gagarin",
+               "John Glenn"
+           ],
+           "answer": "Neil Armstrong"
+       },
+       {
+           "question": "Which language is the most widely spoken in the world?",
+           "options": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+           "answer": "Mandarin Chinese"
+       },
+       {   "question": "How many time zones are there in Russia?",
+           "options":["11", "13","21", "21"],
+           "answer":"11"
+       },
+       {   "question":"Whats the national flower of Japan?" ,
+           "options":["Rose","Sunflowe","Lotus","Cherry blossom"],
+           "answer":"Cherry blossom"
+       },
+       {   "question":"How many stripes are there on the US flag?",
+           "options": ["21","12","33","13"] ,
+           "answer":"13" 
+       },
+       {   "question": "Which of the following empires had no written language:" ,
+           "options": ["Incan","Aztec","Egyptian","Roman"],
+           "answer":"Incan"
+       },
+       {   "question":"Who sang the title song for the latest Bond film, No Time to Die?",
+           "options":["Adele","Sam Smith","Billie Eilish","Drake"],
+           "answer":"Billie Eilish"
+       },
+       {   "question" :" Which flies a green, white, and orange (in that order) tricolor flag? ",
+           "options":["Ireland","Ivary Coast","Italy","Nepal"] ,
+           "answer":"Ireland"
+       },
+       {   "question":"What company makes the Xperia model of smartphone?",
+           "options": ["Samsung","Sony","Nokia","Oppo"],
+           "answer":"Sony"
+       },
+       {   "question":"Which of the following is NOT a fruit?",
+           "options":["Rhubarb","Tomatoes","Avocados","Pineapple"] ,
+           "answer":"Rhubarb"
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       },
+       {   "question":"",
+           "options": ["","","",""],
+           "answer":""
+       }
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   ]}

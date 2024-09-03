@@ -38,12 +38,30 @@ const questions = [
     ],
   },
   {
-    question: "Where is your Name",
+    question: "How many time zones are there in Russia?",
     answers: [
-      { text: "Potato", correct: false },
-      { text: "Monkey", correct: false },
-      { text: "Danger", correct: false },
-      { text: "Hero", correct: true },
+      { text: "11", correct: true },
+      { text: "13", correct: false },
+      { text: "12", correct: false },
+      { text: "14", correct: false },
+    ],
+  },
+  {
+    question: "Whats the national flower of Japan?",
+    answers: [
+      { text: "Rose", correct: false },
+      { text: "Sunflowe", correct: false },
+      { text: "Lotus", correct: false },
+      { text: "Cherry blossom", correct: true },
+    ],
+  },
+  {
+    question: "Which language is the most widely spoken in the world?",
+    answers: [
+      { text: "English", correct: false },
+      { text: "Mandarin Chinese", correct: true },
+      { text: "Spanish", correct: false },
+      { text: "Hindi", correct: false },
     ],
   },
 ];
